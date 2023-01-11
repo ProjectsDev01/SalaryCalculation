@@ -82,7 +82,7 @@ int main()
         cout << "1. Wpisz godziny:\n";
         cout << "2. Wpisz rezki\n";
         cout << "3. Wpisz miasto\n";
-        cout << "4. Pokaz kaske B)\n";
+        cout << "4. Pokaz stawke godzinowa B)\n";
         cout << "5. Pokaz tablice\n";
         cout << "##Podaj liczbe## : ";//*ma³a zmiana aby w tej linijce mo¿na by³o wpisywaæ
 
