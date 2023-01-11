@@ -113,6 +113,10 @@ int main()
             system("cls");//*
             tablica();//*
         }
+        else if (n == 0)
+        {
+            exit();
+        }
 
     } while (n != 0);
 
