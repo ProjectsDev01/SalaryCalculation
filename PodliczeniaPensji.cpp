@@ -113,45 +113,7 @@ int main()
             system("cls");//*
             tablica();//*
         }
-        else if (n == 6)//*
-        {
-            system("cls");//*
-            cout << "Witam w ukrytym wyborze. Podaj dzien miesiaca do wybrania(0 aby wrocic): ";
-            cin >> dn;
-            if (dn == 0)
-            {
 
-            }
-            else if ((dn > 0) && (dn < 32))
-            {
-                d = dn;
-            }
-            else
-            {
-                cout << "Zjebem jestes";
-                Sleep(2000);
-                system("cls");
-                cout << "We spierdalaj";
-                Sleep(2000);
-                system("cls");
-                cout << "Co Ty robisz ze swoim zyciem?";
-                Sleep(2000);
-                system("cls");
-            }
-
-        }
-        else if (n > 6 || n < 0)
-        {
-            cout << "Zjebem jestes";
-            Sleep(2000);
-            system("cls");
-            cout << "We spierdalaj";
-            Sleep(2000);
-            system("cls");
-            cout << "Co Ty robisz ze swoim zyciem?";
-            Sleep(2000);
-            system("cls");
-        }
     } while (n != 0);
 
     plikout.open("dane.txt", ios::out);//*zapisywanie do pliku
