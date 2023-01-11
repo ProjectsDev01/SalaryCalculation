@@ -76,7 +76,7 @@ int main()
 
     do
     {
-        //system("cls");//*po dodawa³em system("cls") w if
+       
         cout << "######_MENU_#####\n";
         cout << "0. EXIT\n";
         cout << "1. Wpisz godziny:\n";
@@ -84,10 +84,10 @@ int main()
         cout << "3. Wpisz miasto\n";
         cout << "4. Pokaz stawke godzinowa B)\n";
         cout << "5. Pokaz tablice\n";
-        cout << "##Podaj liczbe## : ";//*ma³a zmiana aby w tej linijce mo¿na by³o wpisywaæ
+        cout << "##Podaj liczbe## : ";
 
         cin >> n;
-        cout << endl;//* dodana linijka odstêpu
+        cout << endl;
         if (n == 1)
         {
             system("cls");//*
@@ -183,7 +183,7 @@ void miasto()
     cin >> x;
     if (nr >= 1 && nr <= 3)
     {
-        dni[d - 1][nr] = x;// d ogarnac bo to dzien niby B)
+        dni[d - 1][nr] = x;
     }
 }
 // zerowanie dni[d-1>>30], zeby te zera podmieniac
